@@ -11,4 +11,4 @@ This project is a client-side RSA encryption tool built using **JavaScript**, **
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/rsa-encryption-project.git
+   git clone https://github.com/likithh03/RSA-Web-Application.git
