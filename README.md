@@ -12,3 +12,5 @@ This project is a client-side RSA encryption tool built using **JavaScript**, **
 1. Clone the repository:
    ```bash
    git clone https://github.com/likithh03/RSA-Web-Application.git
+2. Open the index.html file in a web browser.
+3. Use the interface to generate keys, encrypt, and decrypt messages.
