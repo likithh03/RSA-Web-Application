@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSA Encryption (Client-Side)</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>RSA Encryption (Client-Side)</h1>
+        <h2>RSA Key Size: <span id="bit-size">2048 bits</span></h2>
+
+        <button onclick="generateKeys()">Generate RSA Keys</button>
+
+        <div id="key-display" class="key-display">
+            <h3>Public Key:</h3>
+            <p id="public-key"></p>
+            <h3>Private Key:</h3>
+            <p id="private-key"></p>
+        </div>
+
+        <h3>Encrypt Message</h3>
+        <textarea id="message" placeholder="Enter message to encrypt"></textarea>
+        <button onclick="encryptMessage()">Encrypt</button>
+        <div id="encrypted" class="message-box"></div>
+
+        <h3>Decrypt Message</h3>
+        <textarea id="ciphertext" placeholder="Paste encrypted message here"></textarea>
+        <button onclick="decryptMessage()">Decrypt</button>
+        <div id="decrypted" class="message-box"></div>
+    </div>
+    <script src="script.js"></script> <!-- Link to external JS -->
+</body>
+</html>
+<button style="background-color: #007BFF; color: white;">Encrypt</button>
+<button style="background-color: #007BFF; color: white;">Decrypt</button>
+
